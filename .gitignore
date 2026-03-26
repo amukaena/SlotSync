@@ -1,0 +1,43 @@
+# .NET
+bin/
+obj/
+publish/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS / Rider
+.vs/
+.idea/
+*.DotSettings.user
+
+# NuGet
+packages/
+*.nupkg
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+bld/
+[Bb]uild[Ll]og.*
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+coverage*/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Secrets (opt-in: 개인 프로젝트이므로 필요시 제거)
+# appsettings.Development.json
+# *.pfx
